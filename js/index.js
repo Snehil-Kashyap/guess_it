@@ -14,7 +14,6 @@ function start(){
     })
     var tries = 10;
     const number = Math.floor(Math.random()*100)+1;
-    console.log(number);
     tryNumber.innerHTML = "Guess the number between 1 to 100, You have 10 tries";
     submit.addEventListener("click", () => {
         Number(guess.value);
